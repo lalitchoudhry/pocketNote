@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/pocketNote/static/css/main.66431370.css",
+    "main.js": "/pocketNote/static/js/main.8b7967c5.js",
+    "index.html": "/pocketNote/index.html",
+    "main.66431370.css.map": "/pocketNote/static/css/main.66431370.css.map",
+    "main.8b7967c5.js.map": "/pocketNote/static/js/main.8b7967c5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.66431370.css",
+    "static/js/main.8b7967c5.js"
+  ]
+}
