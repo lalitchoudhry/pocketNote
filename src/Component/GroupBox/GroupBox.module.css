@@ -1,0 +1,56 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 1em 0 1em 1em;
+    width: 30%;
+    height: 100%;
+    background-color: #fff;
+}
+
+.app_name{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.group_cross_btn:hover{
+    color: #db2e2e;
+}
+
+.group_cross_btn{
+    background: none;
+    border: none;
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin: 0 .5em 0 0;
+}
+
+.group_box{
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin-right: -17px;
+}
+
+.group_add_btn:hover{
+    color: #000000;
+    background-color: #fff;
+}
+
+.group_add_btn{
+    color: #fff;
+    font-size: 1.3rem;
+    margin: 1em;
+    /* padding: .2em 2em; */
+    background-color: #000000;
+    border-radius: 20px;
+}
+
+
+@media only screen and (max-width: 526px){
+    .container{
+        position: absolute;
+        width: 100%;
+        z-index: 1;
+    }
+}

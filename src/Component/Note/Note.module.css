@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 1em;
+}
+
+.time_box{
+    text-align: left;
+    width: 20%;
+    padding: 0 0 0 1em;
+    font-size: .8rem;
+}
+
+.note_box{
+    font-size: .9rem;
+    text-align: left;
+    width: 100%;
+}
+
+@media only screen and (max-width: 526px){
+    .time_box{
+        padding: 0;
+        width: 35%;
+    }
+}

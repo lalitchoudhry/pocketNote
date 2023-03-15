@@ -1,0 +1,10 @@
+.color_btn{
+    padding: 1em;
+    border-radius: 22px;
+    margin: .4em .4em;
+    border: none;
+}
+
+.selected_color_btn{
+    border: 1.5px solid;
+}

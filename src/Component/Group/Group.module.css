@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    align-items: center;
+    padding: .5em;
+    border-radius: 23px 0 0 23px;
+}
+
+.container:hover{
+    background-color: #faf6f0;
+}
+
+.container h3{
+    padding: .7em;
+    color: #fff;
+    border-radius: 30px;
+    margin: 0 1em 0 0;
+}
+
+.container p{
+    font-size: 1.28rem;
+    font-weight: 600;
+}
+
+.active_grp, .active_grp:hover{
+    background-color:#F7ECDC;
+}
