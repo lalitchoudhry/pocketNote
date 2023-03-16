@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/pocket_note/static/css/main.66431370.css",
+    "main.css": "/pocket_note/static/css/main.8580fb3b.css",
     "main.js": "/pocket_note/static/js/main.8b7967c5.js",
     "index.html": "/pocket_note/index.html",
-    "main.66431370.css.map": "/pocket_note/static/css/main.66431370.css.map",
+    "main.8580fb3b.css.map": "/pocket_note/static/css/main.8580fb3b.css.map",
     "main.8b7967c5.js.map": "/pocket_note/static/js/main.8b7967c5.js.map"
   },
   "entrypoints": [
-    "static/css/main.66431370.css",
+    "static/css/main.8580fb3b.css",
     "static/js/main.8b7967c5.js"
   ]
 }
