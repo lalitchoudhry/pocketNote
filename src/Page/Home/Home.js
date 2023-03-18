@@ -42,7 +42,18 @@ export default function Home() {
     }
   }
 
+  const checkGrpIsExist = (name)=>{ //  --------- ------ --------check group name is exist or not
+    let isExist = groups && groups.filter((group)=>group.groupname===name)
+    console.log(isExist)
+    return isExist.length>0 ? true : false;
+  }
+
   const addGroup = (groupName, groupBackColor) => {  //  ------- add new group function
+
+    if (checkGrpIsExist(groupName)) {
+      alert("Group name is already exist")
+      return
+    }
 
     if (!groupName || !groupName.trim() || !groupBackColor){
       inValidInput();
