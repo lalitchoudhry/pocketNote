@@ -20,7 +20,7 @@ It is a react web app that provide user to save notes group wise with time and d
 
 ## Demo
 
-![]()
+![](https://github.com/lalitchoudhry/pocket_note/blob/master/src/images/pocketnote-gif.gif)
 
 
 ## Author
