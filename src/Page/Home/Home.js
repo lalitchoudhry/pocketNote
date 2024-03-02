@@ -95,6 +95,7 @@ export default function Home() {
 
     if (groups !== '') {
       localStorage.setItem('notePocketGroups', JSON.stringify(groups))
+      
     }
   }, [groups])
 
